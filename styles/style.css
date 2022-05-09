@@ -441,6 +441,7 @@ footer {
   display: flex;
   top: 7px;
   left: 7px;
+  padding: 0.3em;
   transition: all 265ms ease-out;
 }
 
@@ -464,6 +465,7 @@ footer {
 
 .social-icons a:hover i {
   border-radius: 150em;
+  padding: 0.3em;
   transform: scale(1.5);
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
