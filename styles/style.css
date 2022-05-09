@@ -429,16 +429,18 @@ footer {
 .social-icons li {
   display: flex;
   font-size: 1.2em;
+  padding: 0.4em;
 }
 
-.social-icons a:hover {}
+.social-icons a:hover {
+  /* color: white; */
+}
 
 .social-icons i {
   color: #fff;
   display: flex;
   top: 7px;
   left: 7px;
-  padding: 10px;
   transition: all 265ms ease-out;
 }
 
@@ -450,22 +452,24 @@ footer {
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  background: linear-gradient(45deg, #002A8F, #00B5F5);
+  background: linear-gradient(45deg, #00B5F5, #002A8F);
   transition: all 265ms ease-out;
 }
 
 .social-icons a:hover:before {
-  transform: scale(0);
+  /* color: white; */
+  transform: scale(1);
   transition: all 265ms ease-in;
 }
 
 .social-icons a:hover i {
-  transform: scale(1.5s);
+  border-radius: 150em;
+  transform: scale(1.5);
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
-  background: -webkit-linear-gradient(45deg, #ebeff7, #00B5F5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #00B5F5;
+  background: -webkit-linear-gradient(45deg, #00B5F5, #002A8F);
+  /* -webkit-background-clip: content-box; */
+  -webkit-text-fill-color: white;
   transition: all 265ms ease-in;
 }
 
@@ -564,7 +568,7 @@ footer {
     ;
     grid-gap: 5px;
     text-align: center;
-    margin-bottom: 20em;
+    margin-bottom: 5em;
   }
 }
 
@@ -623,7 +627,7 @@ footer {
     ;
     grid-gap: 5px;
     text-align: center;
-    margin-bottom: 4em;
+    margin-bottom: 6em;
   }
 
 }
@@ -643,6 +647,7 @@ footer {
   .footer_section {
     display: flex;
     justify-content: center;
+    padding: 1em;
   }
 
 
