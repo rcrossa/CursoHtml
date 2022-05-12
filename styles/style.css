@@ -64,8 +64,6 @@ main>h1 {
   background-color: #00B5F5;
 }
 
-.videos {}
-
 .card-group {
   padding: 2em 1em 3em 1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -429,7 +427,6 @@ footer {
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   background: -webkit-linear-gradient(45deg, #00B5F5, #002A8F);
-  /* -webkit-background-clip: content-box; */
   -webkit-text-fill-color: white;
   transition: all 265ms ease-in;
 }
@@ -441,19 +438,14 @@ footer {
     padding: 1em;
   }
 
-  .container {
-    /* display: flex;
-    flex-direction: column; */
-  }
+
 
   .container>h2 {
     text-align: center;
     margin-top: 1em;
   }
 
-  .description {
-    /* padding: 0.8em 0em 0.5em 0em; */
-  }
+
 
   /* ---- Page Nosotros ----*/
   .content_service2>img,
@@ -651,10 +643,6 @@ footer {
 
   }
 
-  .social-container {
-    /* display: flex;
-    justify-content: center; */
-  }
 
   .social-icons {
     list-style: none;
@@ -666,12 +654,7 @@ footer {
     font-size: 1.2em;
   }
 
-  .social-icons a {
-    /* display: inline-block; */
-    /* display: flex;
-    align-items: center; */
-    /* padding: 10px; */
-  }
+
 
   .social-icons i {
     color: #fff;
