@@ -21,51 +21,6 @@ ul {
 }
 
 
-
-/* - Section products - */
-/* .ourProduct {
-  background-color: #D4EDFC;
-  display: flex;
-}
-
-.ourProduct>.container {
-  margin-bottom: 0.5em;
-}
-
-.container>h2 {
-  text-align: center;
-  margin: 1em 0em 1em 0em;
-}
-
-.first_items,
-.second_items,
-.third_items {
-  justify-items: center;
-  align-items: center;
-  background-color: aliceblue;
-  padding: 1.2em 1em 1.2em 1em;
-}
-
-.content_item_1,
-.content_item_2,
-.content_item_3 {
-  margin: 0em 0em 2em 0em;
-}
-
-.content_item_1>img,
-.content_item_2>img,
-.content_item_3>img {
-  width: 15em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.description {
-  padding: 3em 1em 3em 1em;
-  margin: 0em 0em 2em 0em;
-  background-color: #00B5F5;
-  border-radius: 1em;
-} */
-
 /* ---- Page product ----*/
 .main_container_product {
   background-color: black;
