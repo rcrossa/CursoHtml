@@ -23,7 +23,7 @@ ul {
 
 
 /* - Section products - */
-.ourProduct {
+/* .ourProduct {
   background-color: #D4EDFC;
   display: flex;
 }
@@ -64,7 +64,7 @@ ul {
   margin: 0em 0em 2em 0em;
   background-color: #00B5F5;
   border-radius: 1em;
-}
+} */
 
 /* ---- Page product ----*/
 .main_container_product {
@@ -774,7 +774,7 @@ footer {
     padding: 1em 0em 0em 1.5em;
   }
 
-  .datos_personales {
+  .datos_personales1 {
     list-style: none;
   }
 
