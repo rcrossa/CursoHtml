@@ -84,6 +84,7 @@ main>h1 {
     "content_4 content_4 content_5 content_5";
   grid-gap: 5px;
   text-align: center;
+  margin-bottom: 10%;
 }
 
 #content_2>img,
@@ -414,23 +415,6 @@ footer {
 
 @media screen and (max-width:1024px) {
 
-  /* nuestros productos */
-  .ourProduct {
-    padding: 1em;
-  }
-
-  .container>h2 {
-    text-align: center;
-    margin-top: 1em;
-  }
-
-  .first_items,
-  .second_items,
-  .third_items {
-    padding: 0.8em;
-    margin: 0;
-  }
-
   /* ---- Page Nosotros ----*/
   .content_service2>img,
   .content_service3>img,
@@ -554,40 +538,6 @@ footer {
 
 
 @media screen and (max-width:985px) {
-  .ourProduct {
-    padding: 1em;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .container>h2 {
-    text-align: center;
-  }
-
-  .first_items,
-  .second_items,
-  .third_items {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .description {
-    padding: 2em 1em 1em 1em;
-    width: max-content;
-    margin: 0em;
-  }
-
-  .content_item_1,
-  .content_item_2,
-  .content_item_3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
   /* ---- page service ---- */
 
@@ -610,6 +560,7 @@ footer {
     ;
     grid-gap: 5px;
     text-align: center;
+    margin-bottom: 12%;
   }
 
   #content_2>img,
@@ -668,6 +619,7 @@ footer {
     ;
     grid-gap: 5px;
     text-align: center;
+    margin-bottom: 3%;
   }
 
   #content_2>img,
@@ -793,7 +745,7 @@ footer {
     ;
     grid-gap: 5px;
     text-align: center;
-    margin: 0em 0em 20em 0em;
+    margin: 0em 0em 27em 0em;
   }
 
   #content_2>h2,

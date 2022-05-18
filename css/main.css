@@ -13,34 +13,44 @@
   display: flex; }
   .ourProduct .container {
     margin-bottom: 0.5em; }
-  .ourProduct h2 {
-    text-align: center;
-    margin: 1em 0em 1em 0em; }
-  .ourProduct .first_items,
-  .ourProduct .second_items,
-  .ourProduct .third_items {
-    justify-items: center;
-    align-items: center;
-    background-color: aliceblue;
-    padding: 1.2em 1em 1.2em 1em; }
-    .ourProduct .first_items .content_item_1 > img,
-    .ourProduct .first_items .content_item_2 > img,
-    .ourProduct .first_items .content_item_3 > img,
-    .ourProduct .second_items .content_item_1 > img,
-    .ourProduct .second_items .content_item_2 > img,
-    .ourProduct .second_items .content_item_3 > img,
-    .ourProduct .third_items .content_item_1 > img,
-    .ourProduct .third_items .content_item_2 > img,
-    .ourProduct .third_items .content_item_3 > img {
-      width: 15em;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
-    .ourProduct .first_items .description,
-    .ourProduct .second_items .description,
-    .ourProduct .third_items .description {
-      padding: 3em 1em 3em 1em;
-      margin: 0em 0em 2em 0em;
-      background-color: #00B5F5;
-      border-radius: 1em; }
+    .ourProduct .container h2 {
+      text-align: center;
+      margin: 1em 0em 1em 0em; }
+    .ourProduct .container .first_items,
+    .ourProduct .container .second_items,
+    .ourProduct .container .third_items {
+      justify-items: center;
+      align-items: center;
+      background-color: aliceblue;
+      padding: 1.2em 1em 1.2em 1em; }
+      .ourProduct .container .first_items .content_item_1,
+      .ourProduct .container .first_items .content_item_2,
+      .ourProduct .container .first_items .content_item_3,
+      .ourProduct .container .second_items .content_item_1,
+      .ourProduct .container .second_items .content_item_2,
+      .ourProduct .container .second_items .content_item_3,
+      .ourProduct .container .third_items .content_item_1,
+      .ourProduct .container .third_items .content_item_2,
+      .ourProduct .container .third_items .content_item_3 {
+        margin-bottom: 1em; }
+        .ourProduct .container .first_items .content_item_1 img,
+        .ourProduct .container .first_items .content_item_2 img,
+        .ourProduct .container .first_items .content_item_3 img,
+        .ourProduct .container .second_items .content_item_1 img,
+        .ourProduct .container .second_items .content_item_2 img,
+        .ourProduct .container .second_items .content_item_3 img,
+        .ourProduct .container .third_items .content_item_1 img,
+        .ourProduct .container .third_items .content_item_2 img,
+        .ourProduct .container .third_items .content_item_3 img {
+          width: 15em;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+      .ourProduct .container .first_items .description,
+      .ourProduct .container .second_items .description,
+      .ourProduct .container .third_items .description {
+        padding: 3em 1em 3em 1em;
+        margin: 0em 0em 2em 0em;
+        background-color: #00B5F5;
+        border-radius: 1em; }
 
 footer {
   background-color: #072146;
@@ -131,6 +141,21 @@ footer {
       padding: 0.8em;
       margin: 0; } }
 
+@media (max-width: 985px) {
+  .ourProduct {
+    padding: 1em; }
+    .ourProduct .container {
+      display: flex;
+      flex-direction: column; }
+      .ourProduct .container h2 {
+        text-align: center; }
+      .ourProduct .container .first_items .description,
+      .ourProduct .container .second_items .description,
+      .ourProduct .container .third_items .description {
+        padding: 2em 1em 1em 1em;
+        width: max-content;
+        margin: 0; } }
+
 @media (max-width: 560px) {
   .ourProduct {
     padding: 1em; }
@@ -162,7 +187,7 @@ footer {
         .ourProduct .container .third_items .description {
           padding: 2em 1em 1em 1em;
           width: max-content;
-          margin: 0em; }
+          margin: 0; }
   footer {
     background-color: #072146;
     justify-content: space-between;
@@ -191,7 +216,7 @@ footer {
       justify-content: center; }
       footer .footer_network_social .social-icons {
         list-style: none;
-        margin-right: 0em;
+        margin-right: 0;
         margin-bottom: 3em; }
         footer .footer_network_social .social-icons li {
           font-size: 1.2em; }
