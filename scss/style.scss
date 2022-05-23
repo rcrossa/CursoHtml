@@ -34,7 +34,15 @@ $margin-cero: 0;
     font-weight: 500;
 
     .containernav {
-      .navbarNav {
+      .logo {
+        margin: 0;
+        padding: 0;
+        img {
+          height: 5em;
+          width: auto;
+        }
+      }
+      #navbarNav {
         ul {
           padding: 1em 0em 1em 0em;
         }

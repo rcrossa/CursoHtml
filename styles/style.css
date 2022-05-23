@@ -16,6 +16,16 @@
   font-weight: 500;
 }
 
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.containernav a>img {
+  height: 5em;
+  width: auto;
+}
+
 ul {
   padding: 1em 0em 1em 0em
 }

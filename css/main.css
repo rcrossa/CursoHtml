@@ -5,7 +5,13 @@
   background-color: #072146;
   font-size: larger;
   font-weight: 500; }
-  .main-head .bgnav .containernav .navbarNav ul {
+  .main-head .bgnav .containernav .logo {
+    margin: 0;
+    padding: 0; }
+    .main-head .bgnav .containernav .logo img {
+      height: 5em;
+      width: auto; }
+  .main-head .bgnav .containernav #navbarNav ul {
     padding: 1em 0em 1em 0em; }
 
 .ourProduct {
