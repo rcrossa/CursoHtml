@@ -1,13 +1,38 @@
 @import "variables";
 @import "devices";
 
+$colores: (
+  bar: #04aa6d,
+  barbg: #072146,
+  ourProduct: #d4edfc,
+  items: aliceblue,
+  descripcion: #00b5f5,
+);
+
+.clase-description {
+  padding: 3em 1em 3em 1em;
+  margin: 0em 0em 2em 0em;
+  background-color: map-get($colores, descripcion);
+}
+
+$padding: (
+  item_1: 1.5em,
+  item_2: 1.5em,
+  item_3: 1.5em,
+);
+@each $size, $assign in $padding {
+  .content_#{$size} {
+    margin-bottom: $assign;
+  }
+}
+
 .main-head {
   .navbar-dark .navbar-brand:hover {
-    color: #04aa6d;
+    color: map-get($colores, bar);
   }
 
   .bgnav {
-    background-color: #072146;
+    background-color: map-get($colores, barbg);
     font-size: larger;
     font-weight: 500;
 
@@ -30,7 +55,7 @@
 }
 
 .ourProduct {
-  background-color: #d4edfc;
+  background-color: map-get($colores, ourProduct);
   display: flex;
 
   .container {
@@ -46,14 +71,12 @@
     .third_items {
       justify-items: center;
       align-items: center;
-      background-color: aliceblue;
+      background-color: map-get($colores, items);
       padding: 1.2em 1em 1.2em 1em;
 
       .content_item_1,
       .content_item_2,
       .content_item_3 {
-        margin-bottom: 1em;
-
         img {
           width: $image-size;
           box-shadow: $image-decoration;
@@ -61,9 +84,7 @@
       }
 
       .description {
-        padding: 3em 1em 3em 1em;
-        margin: 0em 0em 2em 0em;
-        background-color: #00b5f5;
+        @extend .clase-description;
         border-radius: 1em;
       }
     }

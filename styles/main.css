@@ -1,3 +1,19 @@
+.clase-description, .ourProduct .container .first_items .description,
+.ourProduct .container .second_items .description,
+.ourProduct .container .third_items .description {
+  padding: 3em 1em 3em 1em;
+  margin: 0em 0em 2em 0em;
+  background-color: #00b5f5; }
+
+.content_item_1 {
+  margin-bottom: 1.5em; }
+
+.content_item_2 {
+  margin-bottom: 1.5em; }
+
+.content_item_3 {
+  margin-bottom: 1.5em; }
+
 .main-head .navbar-dark .navbar-brand:hover {
   color: #04aa6d; }
 
@@ -29,33 +45,20 @@
       align-items: center;
       background-color: aliceblue;
       padding: 1.2em 1em 1.2em 1em; }
-      .ourProduct .container .first_items .content_item_1,
-      .ourProduct .container .first_items .content_item_2,
-      .ourProduct .container .first_items .content_item_3,
-      .ourProduct .container .second_items .content_item_1,
-      .ourProduct .container .second_items .content_item_2,
-      .ourProduct .container .second_items .content_item_3,
-      .ourProduct .container .third_items .content_item_1,
-      .ourProduct .container .third_items .content_item_2,
-      .ourProduct .container .third_items .content_item_3 {
-        margin-bottom: 1em; }
-        .ourProduct .container .first_items .content_item_1 img,
-        .ourProduct .container .first_items .content_item_2 img,
-        .ourProduct .container .first_items .content_item_3 img,
-        .ourProduct .container .second_items .content_item_1 img,
-        .ourProduct .container .second_items .content_item_2 img,
-        .ourProduct .container .second_items .content_item_3 img,
-        .ourProduct .container .third_items .content_item_1 img,
-        .ourProduct .container .third_items .content_item_2 img,
-        .ourProduct .container .third_items .content_item_3 img {
-          width: 15em;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+      .ourProduct .container .first_items .content_item_1 img,
+      .ourProduct .container .first_items .content_item_2 img,
+      .ourProduct .container .first_items .content_item_3 img,
+      .ourProduct .container .second_items .content_item_1 img,
+      .ourProduct .container .second_items .content_item_2 img,
+      .ourProduct .container .second_items .content_item_3 img,
+      .ourProduct .container .third_items .content_item_1 img,
+      .ourProduct .container .third_items .content_item_2 img,
+      .ourProduct .container .third_items .content_item_3 img {
+        width: 15em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
       .ourProduct .container .first_items .description,
       .ourProduct .container .second_items .description,
       .ourProduct .container .third_items .description {
-        padding: 3em 1em 3em 1em;
-        margin: 0em 0em 2em 0em;
-        background-color: #00b5f5;
         border-radius: 1em; }
 
 footer {
