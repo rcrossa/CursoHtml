@@ -141,7 +141,7 @@ footer {
 @media (max-width: 1024px) {
   .ourProduct {
     padding: 1em; }
-    .ourProduct .container h2 {
+    .ourProduct .container h1 {
       text-align: center;
       margin-top: 1em; }
     .ourProduct .container .first_items,
@@ -156,7 +156,7 @@ footer {
     .ourProduct .container {
       display: flex;
       flex-direction: column; }
-      .ourProduct .container h2 {
+      .ourProduct .container h1 {
         text-align: center; }
       .ourProduct .container .first_items .description,
       .ourProduct .container .second_items .description,
@@ -171,7 +171,7 @@ footer {
     .ourProduct .container {
       display: flex;
       flex-direction: column; }
-      .ourProduct .container h2 {
+      .ourProduct .container h1 {
         text-align: center; }
       .ourProduct .container .first_items,
       .ourProduct .container .second_items,
