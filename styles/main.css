@@ -35,7 +35,7 @@
   display: flex; }
   .ourProduct .container {
     margin-bottom: 0.5em; }
-    .ourProduct .container h2 {
+    .ourProduct .container h1 {
       text-align: center;
       margin: 1em 0em 1em 0em; }
     .ourProduct .container .first_items,
