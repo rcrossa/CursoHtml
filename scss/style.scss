@@ -1,6 +1,6 @@
 @import "variables";
 @import "devices";
-
+$color: blue;
 $colores: (
   bar: #04aa6d,
   barbg: #072146,
@@ -25,6 +25,10 @@ $padding: (
     margin-bottom: $assign;
   }
 }
+
+$entities-map: (
+  raquo: "\00bb",
+);
 
 .main-head {
   .navbar-dark .navbar-brand:hover {
@@ -53,13 +57,66 @@ $padding: (
     }
   }
 }
-
+.section_card {
+  background-color: lightcyan;
+  h2 {
+    text-align: center;
+    padding: 1em;
+    color: black;
+  }
+  .col {
+    padding: 1em;
+  }
+  .card {
+    .card-body {
+      .btn_Serv {
+        padding: 0.75rem 1.25rem;
+        border-radius: 10rem;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.15rem;
+        transition: all 0s;
+        position: relative;
+        z-index: 1;
+        span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.2s;
+          &:after {
+            content: "\00bb";
+            position: absolute;
+            opacity: 0;
+            right: -10px;
+            transition: 0.2s;
+          }
+        }
+        &:hover {
+          background-color: #0c9ace;
+          span {
+            padding-right: 1.5em;
+            &:after {
+              opacity: 1;
+              right: 0;
+            }
+          }
+        }
+        &:active {
+          background-color: #03bafd;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+        }
+      }
+    }
+  }
+}
 .ourProduct {
   background-color: map-get($colores, ourProduct);
   display: flex;
 
   .container {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 
     h1 {
       text-align: center;
@@ -72,7 +129,9 @@ $padding: (
       justify-items: center;
       align-items: center;
       background-color: map-get($colores, items);
-      padding: 1.2em 1em 1.2em 1em;
+      padding: 1.2em 1em 1em 1em;
+      margin-bottom: 1em;
+      border: 1px solid #c9c9c9;
 
       .content_item_1,
       .content_item_2,
@@ -223,6 +282,8 @@ footer {
       .third_items {
         padding: 0.8em;
         margin: $margin-cero;
+        margin-bottom: 1em;
+        border: 1px solid #c9c9c9;
       }
     }
   }
@@ -242,6 +303,8 @@ footer {
       .first_items,
       .second_items,
       .third_items {
+        margin-bottom: 1em;
+        border: 1px solid #c9c9c9;
         .description {
           padding: 2em 1em 1em 1em;
           width: max-content;
@@ -268,7 +331,8 @@ footer {
       .third_items {
         display: flex;
         justify-content: center;
-        margin: $margin-cero;
+        margin-bottom: 1em;
+        border: 1px solid #c9c9c9;
 
         .content_item_1,
         .content_item_2,

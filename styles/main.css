@@ -30,11 +30,52 @@
   .main-head .bgnav .containernav #navbarNav ul {
     padding: 1em 0em 1em 0em; }
 
+.section_card {
+  background-color: lightcyan; }
+  .section_card h2 {
+    text-align: center;
+    padding: 1em;
+    color: black; }
+  .section_card .col {
+    padding: 1em; }
+  .section_card .card .card-body .btn_Serv {
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.15rem;
+    transition: all 0s;
+    position: relative;
+    z-index: 1; }
+    .section_card .card .card-body .btn_Serv span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.2s; }
+      .section_card .card .card-body .btn_Serv span:after {
+        content: "\00bb";
+        position: absolute;
+        opacity: 0;
+        right: -10px;
+        transition: 0.2s; }
+    .section_card .card .card-body .btn_Serv:hover {
+      background-color: #0c9ace; }
+      .section_card .card .card-body .btn_Serv:hover span {
+        padding-right: 1.5em; }
+        .section_card .card .card-body .btn_Serv:hover span:after {
+          opacity: 1;
+          right: 0; }
+    .section_card .card .card-body .btn_Serv:active {
+      background-color: #03bafd;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px); }
+
 .ourProduct {
   background-color: #d4edfc;
   display: flex; }
   .ourProduct .container {
-    margin-bottom: 0.5em; }
+    margin-bottom: 1em; }
     .ourProduct .container h1 {
       text-align: center;
       margin: 1em 0em 1em 0em; }
@@ -44,7 +85,9 @@
       justify-items: center;
       align-items: center;
       background-color: aliceblue;
-      padding: 1.2em 1em 1.2em 1em; }
+      padding: 1.2em 1em 1em 1em;
+      margin-bottom: 1em;
+      border: 1px solid #c9c9c9; }
       .ourProduct .container .first_items .content_item_1 img,
       .ourProduct .container .first_items .content_item_2 img,
       .ourProduct .container .first_items .content_item_3 img,
@@ -148,7 +191,9 @@ footer {
     .ourProduct .container .second_items,
     .ourProduct .container .third_items {
       padding: 0.8em;
-      margin: 0; } }
+      margin: 0;
+      margin-bottom: 1em;
+      border: 1px solid #c9c9c9; } }
 
 @media (max-width: 985px) {
   .ourProduct {
@@ -158,12 +203,17 @@ footer {
       flex-direction: column; }
       .ourProduct .container h1 {
         text-align: center; }
-      .ourProduct .container .first_items .description,
-      .ourProduct .container .second_items .description,
-      .ourProduct .container .third_items .description {
-        padding: 2em 1em 1em 1em;
-        width: max-content;
-        margin: 0; } }
+      .ourProduct .container .first_items,
+      .ourProduct .container .second_items,
+      .ourProduct .container .third_items {
+        margin-bottom: 1em;
+        border: 1px solid #c9c9c9; }
+        .ourProduct .container .first_items .description,
+        .ourProduct .container .second_items .description,
+        .ourProduct .container .third_items .description {
+          padding: 2em 1em 1em 1em;
+          width: max-content;
+          margin: 0; } }
 
 @media (max-width: 560px) {
   .ourProduct {
@@ -178,7 +228,8 @@ footer {
       .ourProduct .container .third_items {
         display: flex;
         justify-content: center;
-        margin: 0; }
+        margin-bottom: 1em;
+        border: 1px solid #c9c9c9; }
         .ourProduct .container .first_items .content_item_1,
         .ourProduct .container .first_items .content_item_2,
         .ourProduct .container .first_items .content_item_3,
