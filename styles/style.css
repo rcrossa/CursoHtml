@@ -667,16 +667,9 @@ footer {
     font-size: 1em;
   }
 
-  #content_4,
-  #content_5 {
-    /* margin-bottom: 10%; */
-  }
 }
 
 @media screen and (max-width:400px) {
-
-
-
 
   /* ---- page service ---- */
   .card-body>h5 {
