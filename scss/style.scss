@@ -57,9 +57,10 @@ $entities-map: (
     }
   }
 }
+
 .section_card {
   background-color: lightcyan;
-  h2 {
+  h1 {
     text-align: center;
     padding: 1em;
     color: black;
@@ -118,7 +119,7 @@ $entities-map: (
   .container {
     margin-bottom: 1em;
 
-    h1 {
+    h2 {
       text-align: center;
       margin: 1em 0em 1em 0em;
     }

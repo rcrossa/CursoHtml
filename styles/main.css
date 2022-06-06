@@ -32,7 +32,7 @@
 
 .section_card {
   background-color: lightcyan; }
-  .section_card h2 {
+  .section_card h1 {
     text-align: center;
     padding: 1em;
     color: black; }
@@ -76,7 +76,7 @@
   display: flex; }
   .ourProduct .container {
     margin-bottom: 1em; }
-    .ourProduct .container h1 {
+    .ourProduct .container h2 {
       text-align: center;
       margin: 1em 0em 1em 0em; }
     .ourProduct .container .first_items,
