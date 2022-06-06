@@ -274,13 +274,15 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center; }
-      footer .footer_network_social .social-icons {
+      footer .footer_network_social .social-container .social-icons {
         list-style: none;
         margin-right: 0;
         margin-bottom: 3em; }
-        footer .footer_network_social .social-icons li {
+        footer .footer_network_social .social-container .social-icons li {
           font-size: 1.2em; }
-        footer .footer_network_social .social-icons i {
+          footer .footer_network_social .social-container .social-icons li a {
+            text-decoration: none; }
+        footer .footer_network_social .social-container .social-icons i {
           color: #fff;
           top: 7px;
           left: 7px;

@@ -388,22 +388,26 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center;
+      .social-container {
+        .social-icons {
+          list-style: none;
+          margin-right: $margin-cero;
+          margin-bottom: 3em;
 
-      .social-icons {
-        list-style: none;
-        margin-right: $margin-cero;
-        margin-bottom: 3em;
+          li {
+            font-size: 1.2em;
+            a {
+              text-decoration: none;
+            }
+          }
 
-        li {
-          font-size: 1.2em;
-        }
-
-        i {
-          color: #fff;
-          top: 7px;
-          left: 7px;
-          padding: 10px;
-          transition: all 265ms ease-out;
+          i {
+            color: #fff;
+            top: 7px;
+            left: 7px;
+            padding: 10px;
+            transition: all 265ms ease-out;
+          }
         }
       }
     }
