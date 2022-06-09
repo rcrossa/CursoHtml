@@ -101,6 +101,20 @@
       .ourProduct .container .third_items .content_item_3 img {
         width: 15em;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+        .ourProduct .container .first_items .content_item_1 img:hover,
+        .ourProduct .container .first_items .content_item_2 img:hover,
+        .ourProduct .container .first_items .content_item_3 img:hover,
+        .ourProduct .container .second_items .content_item_1 img:hover,
+        .ourProduct .container .second_items .content_item_2 img:hover,
+        .ourProduct .container .second_items .content_item_3 img:hover,
+        .ourProduct .container .third_items .content_item_1 img:hover,
+        .ourProduct .container .third_items .content_item_2 img:hover,
+        .ourProduct .container .third_items .content_item_3 img:hover {
+          -ms-transform: scale(1);
+          /* IE 9 */
+          -webkit-transform: scale(1.1);
+          /* Safari 3-8 */
+          transform: scale(1.1); }
       .ourProduct .container .first_items .description,
       .ourProduct .container .second_items .description,
       .ourProduct .container .third_items .description {
