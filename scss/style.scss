@@ -47,6 +47,9 @@ $entities-map: (
         img {
           height: 5em;
           width: auto;
+          &:hover {
+            filter: saturate(180%) brightness(500%);
+          }
         }
       }
       #navbarNav {

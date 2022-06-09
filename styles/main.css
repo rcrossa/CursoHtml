@@ -27,6 +27,8 @@
     .main-head .bgnav .containernav .logo img {
       height: 5em;
       width: auto; }
+      .main-head .bgnav .containernav .logo img:hover {
+        filter: saturate(180%) brightness(500%); }
   .main-head .bgnav .containernav #navbarNav ul {
     padding: 1em 0em 1em 0em; }
 

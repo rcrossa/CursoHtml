@@ -26,6 +26,10 @@
   width: auto;
 }
 
+.containernav a>img:hover {
+  filter: saturate(180%) brightness(500%);
+}
+
 ul {
   padding: 1em 0em 1em 0em
 }
